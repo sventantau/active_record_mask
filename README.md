@@ -1,3 +1,6 @@
+[![Ruby](https://github.com/sventantau/active_record_mask/actions/workflows/ruby.yml/badge.svg)](https://github.com/sventantau/active_record_mask/actions/workflows/ruby.yml)
+
+
 # ActiveRecordMask
 
 ActiveRecordMask is a small ruby library that provides an easy way to mask read access to database attributes and associations in ActiveRecord objects. 
