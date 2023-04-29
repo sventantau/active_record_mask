@@ -1,0 +1,13 @@
+/.bundle/
+/Gemfile.lock
+/coverage/
+/doc/
+/spec/reports/
+/tmp/
+*.bundle
+*.so
+*.o
+*.a
+*.log
+*.sqlite
+*.lock
