@@ -46,7 +46,7 @@ module ActiveRecordMask
   private
 
   def initialize_protector
-    @show_real_data = self.class.show_real_data_by_default
+    @show_real_data ||= self.class.show_real_data_by_default
 
     self.class.reflect_on_all_associations.each do |reflection|
       association = reflection.name
