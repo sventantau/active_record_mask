@@ -15,6 +15,9 @@ some_object = SomeClass.first
 some_object.title == 'Real Title'
 => false
 
+some_object.some_associations.count == 0
+=> true
+
 some_object.title == 'some configured default'
 => true
 
@@ -23,6 +26,9 @@ some_object.mask_down!
 
 some_object.title == 'Real Title'
 => true
+
+some_object.some_associations.count
+=> 2342
 
 # Prevent reading of real data.
 some_object.mask_up!
